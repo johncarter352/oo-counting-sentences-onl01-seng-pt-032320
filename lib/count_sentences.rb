@@ -11,7 +11,11 @@ class String
   end
 
   def question?
-
+    if !(self.end_with?("."))
+      false 
+    else
+      true 
+    end 
   end
 
   def exclamation?
